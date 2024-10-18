@@ -11,8 +11,7 @@ class MyPet(): #establishes class to describe the animal
         self.eye_number = eye_num #number of eyes(integer)
         self.fluffy = is_fluffy #is it fluffy(bool)
         
-    def describe(self): '''member function of the class that prints out 
-    and describes the data members representing the physical characteristics of the animal'''
+    def describe(self):
         print("Your pet has a tail:", pet1.tail)
         print("Your pet's arm length is ", pet1.arm_length)
         print("Your pet's leg length is ", pet1.leg_length)
